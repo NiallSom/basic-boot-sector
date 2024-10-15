@@ -1,5 +1,5 @@
 [org 0x7c00]
-; bx is the register for printing
+
 
 mov dx, 0x1FB6
 
