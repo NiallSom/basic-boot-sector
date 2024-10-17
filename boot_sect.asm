@@ -3,6 +3,8 @@
 
 mov dx, 0x1FB6
 
+mov bx, my_text
+call print
 call print_hex
 jmp $               ; Infinite loop to halt the execution
 
